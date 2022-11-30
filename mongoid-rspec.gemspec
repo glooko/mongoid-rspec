@@ -13,6 +13,13 @@ Gem::Specification.new do |s|
   s.description = 'RSpec matches for Mongoid models, including association and validation matchers.'
   s.license     = 'MIT'
 
+  if s.respond_to?(:metadata)
+    s.metadata["allowed_push_host"] = "https://rubygems.pkg.github.com/glooko"
+  else
+    raise "RubyGems 2.0 or newer is required to protect against " \
+      "public gem pushes."
+  end
+
   s.required_ruby_version     = '>= 2.2'
   s.required_rubygems_version = '>= 1.3.6'
   s.rubyforge_project         = 'mongoid-rspec'

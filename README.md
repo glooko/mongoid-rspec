@@ -370,3 +370,8 @@ You're encouraged to contribute to this library. See [CONTRIBUTING](CONTRIBUTING
 Copyright (c) 2009-2018 Evan Sagge and Contributors.
 
 MIT License. See [LICENSE](LICENSE) for details.
+
+## Pushing new version to Github Packages
+
+1. Load your personal access token in environment as `GITHUB_GLOOKO_BUNDLE_PASSWORD`
+2. Run `docker compose run gem_publish`
